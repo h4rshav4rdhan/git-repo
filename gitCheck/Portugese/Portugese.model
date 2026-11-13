@@ -9,8 +9,8 @@
         <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
         <model-identification-field name="Created By" partOfTag="false" value="rgtmp_devapriya.pal"/>
         <model-identification-field name="Created Date and Time" partOfTag="false" value="20 Mar 2026 05:56:43"/>
-        <model-identification-field name="Updated By" partOfTag="false" value="devapriya.pal"/>
-        <model-identification-field name="Updated Date and Time" partOfTag="false" value="20 Mar 2026 06:57:09"/>
+        <model-identification-field name="Updated By" partOfTag="false" value="harsha.vardhan5"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="13 Nov 2026 13:43:52"/>
         <model-identification-field name="Application Sub Function" partOfTag="true" value="GenAI_generated"/>
         <model-identification-field name="Test Stage" partOfTag="false" value=""/>
         <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -18,65 +18,66 @@
         <model-identification-field name="Epic" partOfTag="false" value=""/>
         <model-identification-field name="Feature" partOfTag="false" value=""/>
         <model-identification-field name="User Story" partOfTag="false" value=""/>
+        <model-identification-field name="Git Comments" partOfTag="false" value=""/>
         <model-identification-field name="Use attribute pool" partOfTag="false" value="false"/>
     </model-identification>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="invoice_type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="invoice_type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="received" neg-value="false" weight="3"/>
         <requirement ID="Portugese_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="intermediary_part" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="intermediary_part" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="edicom" neg-value="false" weight="1"/>
         <value name="not_edicom" neg-value="true" weight="1"/>
         <requirement ID="Portugese_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="invoice_currency" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="invoice_currency" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="egp" neg-value="false" weight="1"/>
         <value name="eur" neg-value="false" weight="1"/>
         <value name="usd" neg-value="false" weight="1"/>
         <value name="not_egp" neg-value="true" weight="1"/>
         <requirement ID="Portugese_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="supplier_country" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="supplier_country" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
         <value name="not_eg" neg-value="true" weight="1"/>
         <requirement ID="Portugese_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="company_code" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="company_code" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
         <value name="not_eg" neg-value="true" weight="1"/>
         <requirement ID="Portugese_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_currency" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_currency" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="egp" neg-value="false" weight="1"/>
         <value name="eur" neg-value="false" weight="1"/>
         <value name="usd" neg-value="false" weight="1"/>
         <value name="not_egp" neg-value="true" weight="1"/>
         <requirement ID="Portugese_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_method" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_method" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="cash" neg-value="false" weight="1"/>
         <value name="bank_transfer" neg-value="false" weight="1"/>
         <value name="not_cash" neg-value="true" weight="1"/>
         <requirement ID="Portugese_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="document_status" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="document_status" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="approved" neg-value="false" weight="1"/>
         <value name="not_approved" neg-value="true" weight="1"/>
         <requirement ID="Portugese_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="cash_advance" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="cash_advance" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="yes" neg-value="false" weight="1"/>
         <value name="no" neg-value="false" weight="1"/>
         <value name="not_yes" neg-value="true" weight="1"/>
         <requirement ID="Portugese_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="receipt_available" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="receipt_available" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="yes" neg-value="false" weight="1"/>
         <value name="no" neg-value="false" weight="1"/>
         <value name="not_yes" neg-value="true" weight="1"/>
         <requirement ID="Portugese_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="bank_name" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="bank_name" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="bnp" neg-value="false" weight="1"/>
         <value name="citi_bank" neg-value="false" weight="1"/>
         <value name="commercial_international_bank" neg-value="false" weight="1"/>
@@ -91,12 +92,15 @@
         <value name="not_qnb" neg-value="true" weight="1"/>
         <requirement ID="Portugese_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_file_format" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="payment_file_format" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="xml" neg-value="false" weight="1"/>
         <value name="mt101" neg-value="false" weight="1"/>
         <value name="not_xml" neg-value="true" weight="1"/>
         <value name="not_mt101" neg-value="true" weight="1"/>
         <requirement ID="Portugese_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="a1" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release1dot7 @1.0 @Release1dot7_Functionality1 @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="v1" neg-value="false" weight="1"/>
     </attribute>
     <restriction expression="!(invoice_currency.equals(&quot;egp&quot;)) || payment_currency.equals(&quot;egp&quot;)" group="" groupedExpression="!(invoice_currency.equals(&quot;egp&quot;)) || payment_currency.equals(&quot;egp&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
         <requirement ID="Portugese_2"/>
@@ -6413,7 +6417,20 @@
     </focus-ctd-decoration>
     <deactivates/>
     <attrs-to-delete/>
-    <pool_comments/>
+    <pool_comments>
+        <pool_comment key="64ff31f1-9803-4e5a-b2e0-77de09349230" value="{&quot;name&quot;:&quot;invoice_currency&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="e1310e5e-5724-4e49-893a-e51aa372858c" value="{&quot;name&quot;:&quot;cash_advance&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="3738ece4-0236-4f73-a395-0a637d274de6" value="{&quot;name&quot;:&quot;supplier_country&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="23b649ad-bae2-4aaf-91c2-e2c74009ff76" value="{&quot;name&quot;:&quot;payment_method&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="e454c6a3-9af5-4699-ad25-08669b9e194a" value="{&quot;name&quot;:&quot;intermediary_part&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="3891d5d4-b923-4e5e-8998-69ed357ab729" value="{&quot;name&quot;:&quot;company_code&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="c68841c9-11f8-46ed-9a7e-ff0dbeacf205" value="{&quot;name&quot;:&quot;bank_name&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="37874629-73bf-48bb-ad77-68f0661ee8fb" value="{&quot;name&quot;:&quot;document_status&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="1ebfcc75-0ab2-4a78-9287-d0155247a2bb" value="{&quot;name&quot;:&quot;invoice_type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="b907b5b0-107c-4804-a174-8748934237ae" value="{&quot;name&quot;:&quot;receipt_available&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="905f7850-6869-49e2-a22b-09bb6d3110af" value="{&quot;name&quot;:&quot;payment_file_format&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="e1e2b1e3-8c84-4a1d-aa1b-3c5414c19978" value="{&quot;name&quot;:&quot;payment_currency&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+    </pool_comments>
     <db-dependencies/>
     <focus-ctd-model-sync>
         <focus-ctd-model-sync-mult/>
